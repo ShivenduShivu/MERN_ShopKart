@@ -16,7 +16,7 @@ with JWT authentication, role-free protected routes, and a persistent order hist
 ## ✨ Features
 
 **Authentication**
-- Register / login / logout / view profile / change password
+- Register / login / logout / view profile / change password. You can use any email at the moment. Everyone works for the demo.
 - Passwords hashed with **bcrypt**, sessions via **JWT stored in an httpOnly cookie** (immune to localStorage-based XSS)
 - Route guards on the client: `ProtectedRoute` redirects logged-out users, `PublicRoute` bounces logged-in users away from `/login` and `/register`
 
